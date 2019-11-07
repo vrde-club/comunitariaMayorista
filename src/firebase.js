@@ -4,13 +4,13 @@ import 'firebase/database'
 
 export const db = firebase
     .initializeApp({
-        apiKey: "AIzaSyCwgdBtHXEyUVLe9yP_la8IrN0qG2SYeFM",
-        authDomain: "vrde-admin.firebaseapp.com",
-        databaseURL: "https://vrde-admin.firebaseio.com",
-        projectId: "vrde-admin",
-        storageBucket: "",
-        messagingSenderId: "549162612019",
-        appId: "1:549162612019:web:8eaa67dae5a1304c43fa46"
+        apiKey: "AIzaSyChdIEVNyNJQFZdIKjKOSqSWs1T4DdnBTE",
+        authDomain: "comunitariamayorista.firebaseapp.com",
+        databaseURL: "https://comunitariamayorista.firebaseio.com",
+        projectId: "comunitariamayorista",
+        storageBucket: "comunitariamayorista.appspot.com",
+        messagingSenderId: "211519611502",
+        appId: "1:211519611502:web:f75c209b4895d25803bc7f"
     })
     .database()
 
