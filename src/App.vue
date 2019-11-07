@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>Vrde Comunitario</h1>
+    <h1>Vrde Comunitaria</h1>
     <div class="menu">
       <router-link to="/admin">Admin</router-link>
       <router-link to="/portal">Portal</router-link>

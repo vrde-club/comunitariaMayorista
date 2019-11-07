@@ -1,6 +1,6 @@
 <template>
   <div id="portal">
-    <h3>Ventas Comunitarias</h3>
+    <h3>Ventas</h3>
     <div class="total">
       <div class="item">
         <div class="name"></div>

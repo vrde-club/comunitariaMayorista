@@ -1,6 +1,6 @@
 <template>
   <div id="admin">
-    <h3>Admin Comunitaria</h3>
+    <h3>Admin</h3>
     <div class="addProduct">
       <div class="productBox">
         <label for="name">Name</label>
