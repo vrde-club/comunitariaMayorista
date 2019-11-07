@@ -1,6 +1,6 @@
 <template>
   <div id="portal">
-    <h3>Vrde Portal</h3>
+    <h3>Ventas Comunitarias</h3>
     <div class="total">
       <div class="item">
         <div class="name"></div>
@@ -32,9 +32,9 @@
 </template>
 
 <script>
-import { db } from "../firebase";
+import { deeb } from "../firebase";
 import Vue2Filters from "vue2-filters";
-const salesRef = db.ref("sales");
+const salesRef = deeb.ref("sales");
 
 export default {
   data() {
