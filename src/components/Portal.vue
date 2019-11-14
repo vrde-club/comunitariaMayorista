@@ -94,11 +94,10 @@ export default {
         var items = s[i][0].items;
         for (var o in items) {
           var name = items[o].variedad.toString();
-          if (!c[name] === NaN) {
+          if (!c[name]) {
             c[name] = 0;
-          } else {
-            c[name] = parseInt(items[o].cantidad);
           }
+          c[name] += items[o].cantidad;
         }
       }
       var n = [];
