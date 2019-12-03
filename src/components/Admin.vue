@@ -88,10 +88,10 @@
 </template>
 
 <script>
-import { deeb } from "../firebase";
+import { db } from "../firebase";
 import Vue2Filters from "vue2-filters";
 
-const productsRef = deeb.ref("products");
+const productsRef = db.ref("products");
 
 export default {
   data() {

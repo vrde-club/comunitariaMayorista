@@ -145,14 +145,14 @@ export default {
     },
     updateItems(event, key, index, name, item, sale) {
       var n = "0/items/" + index + "/" + name;
-      var p = "0/items/" + index + "/pago"
-      if (name == "cantidad"){
+      var p = "0/items/" + index + "/pago";
+      if (name == "cantidad") {
         item.pago = item.precio * item.cantidad;
       }
       var saleTotal = 0;
-      for (var i in sale.items){
-        saleTotal += parseInt(sale.items[i].pago)
-      } 
+      for (var i in sale.items) {
+        saleTotal += parseInt(sale.items[i].pago);
+      }
       let updateObject = {
         "0/total": saleTotal,
         [p]: item.pago,
@@ -192,7 +192,6 @@ export default {
   }
 };
 </script>
-
 
 <style scoped>
 .sale {
@@ -278,9 +277,6 @@ export default {
 }
 .sale .userData .items .item .row.price {
   width: 100px;
-}
-
-.sale .selectPayment {
 }
 
 .greenBtn {

@@ -2,7 +2,7 @@
 import firebase from 'firebase/app'
 import 'firebase/database'
 
-export const deeb = firebase
+export const db = firebase
     .initializeApp({
         apiKey: "AIzaSyChdIEVNyNJQFZdIKjKOSqSWs1T4DdnBTE",
         authDomain: "comunitariamayorista.firebaseapp.com",

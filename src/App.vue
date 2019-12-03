@@ -3,7 +3,7 @@
     <h1>Vrde Comunitaria</h1>
     <div class="menu">
       <router-link to="/admin">Admin</router-link>
-      <router-link to="/portal">Portal</router-link>
+      <router-link to="/portal">Ventas</router-link>
     </div>
     <router-view></router-view>
   </div>
