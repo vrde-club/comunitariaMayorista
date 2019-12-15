@@ -208,7 +208,7 @@ export default {
   margin-bottom: 10px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
   position: relative;
-  border-left: 2px solid #00cc65;
+  border-left: 2px solid #41b883;
   width: 470px;
 }
 .sale .userData {
@@ -277,7 +277,7 @@ export default {
 	top: 20px;
 	width: 0;
 	height: 0;
-	border-bottom: 10px solid #00cc65;
+	border-bottom: 10px solid #41b883;
 	border-top: 10px solid transparent;
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
@@ -291,7 +291,7 @@ export default {
 	width: 0;
 	height: 0;
 	border-bottom: 10px solid transparent;
-	border-top: 10px solid #00cc65;
+	border-top: 10px solid #41b883;
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
 }
@@ -328,14 +328,14 @@ export default {
 .greenBtn {
   height: 30px;
   width: 80px;
-  background-color: #00cc65;
+  background-color: #41b883;
   border: none;
   color: white;
 }
 .redBtn {
   height: 30px;
   width: 80px;
-  background-color: #00cc65;
+  background-color: #41b883;
   border: none;
   color: white;
   position: absolute;

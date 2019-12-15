@@ -1,10 +1,11 @@
 <template>
   <div id="app">
-    <h1>Vrde Comunitaria</h1>
     <div class="menu">
+      <img style="height: 80px;margin-right: 20px;" src="./assets/logo.png" alt="">
       <router-link to="/admin">Admin</router-link>
-      <router-link to="/portal">Ventas</router-link>
+      <router-link to="/ventas">Ventas</router-link>
     </div>
+    <br><br>
     <router-view></router-view>
   </div>
 </template>
@@ -46,7 +47,9 @@ button {
   font-weight: bold;
 }
 .menu {
-  display:flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
@@ -54,7 +57,7 @@ a {
     margin: 0px 5px;
     text-decoration: none;
     font-weight: bold;
-    background-color: #00cc65;
+    background-color: #41b883;
     color: white;
     font-size: 14PX;
 }
