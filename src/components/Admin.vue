@@ -212,8 +212,7 @@ button {
   justify-content: space-around;
   background-color: #fff;
   margin-bottom: 20px;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
   padding: 20px 10px;
   border-left: 2px solid #41b883;
 }
